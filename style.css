@@ -1,0 +1,201 @@
+
+/*
+	old color: #c60751
+	new color: #e22e74
+	new color2: #e10964
+	grid color: #fe0050 
+*/
+
+/*** Body & Universal variables ***/
+
+body {font-size: 10px; font-family: Helvetica, Arial, Verdana, sans-serif; background: #eef0ee; padding: 0; margin: 0; color: #000;}
+
+.wrapper {width: 990px; margin: 0 auto; }
+
+.header {width: 960px; margin: 35px 15px 0 15px; height: 100px; text-align: center;}
+.header h1 {float: left; font-size: 3em; color: #e10964;}
+.header h1 a { color: #e10964; text-decoration: none; }
+.header ul {margin: 30px 0 0 0; padding: 0; list-style-type: none; float: right;}
+.header li {display: inline; float: none; margin: 0 0 0 30px; float: right;}
+.header ul li a {text-decoration: none; font-weight: bold; font-size: 1.4em; color: #e10964; padding: 4px;}
+.header ul li a:hover {border-bottom: 3px solid #e10964;}
+
+a { color: #e10964; text-decoration: none; }
+
+.newContainer {width: 990px; margin: 0 15px 15px 15px; float: left; }
+
+.container {width: 990px; margin: 0 0 0 15px; float: left;}
+.footer {width: 960px; margin: 35px 15px 40px 0; float:  left; color: #e10964; text-align: right; border-top: 1px solid #ccc; padding-top: 15px; float: left;}
+
+p {
+	-webkit-margin-before: 1em;
+	margin-top: 0;
+	
+}
+
+.split {
+	width:465px;
+	height:566px;
+}
+
+.newitemSplit {
+	width:472px;
+	height:600px;
+	margin:0 16px 0 0;
+	color: #fff;
+	
+	/* required to hide the image after resized */
+	overflow:hidden;
+	
+	/* for child absolute position */
+	position:relative;
+	
+	/* display div in line */
+	float:left;
+}
+
+.newitem {
+	width:960px;
+	height:566px;
+	margin:0 15px 15px 15px;
+	color: #fff;
+	
+	/* required to hide the image after resized */
+	overflow:hidden;
+	
+	/* for child absolute position */
+	position:relative;
+	
+	/* display div in line */
+	float:left;
+}
+
+.newitemSplit .caption {
+	width:472px;
+	height:600px;
+	background: url('img/bg2.png');
+	color:#fff;
+	font-weight:bold;
+	text-decoration: none;
+		
+	/* fix it at the bottom */
+	position:absolute;
+	left:0;
+
+	/* hide it by default */
+	display:none;
+
+}
+
+.newitem .caption {
+	width:960px;
+	height:566px;
+	background: url('img/bg2.png');
+	color:#fff;
+	font-weight:bold;
+	text-decoration: none;
+		
+	/* fix it at the bottom */
+	position:absolute;
+	left:0;
+
+	/* hide it by default */
+	display:none;
+
+}
+
+.newitem .caption span, .newitemSplit .caption span {
+	color:#fff;
+	font-size: 2em; font-weight: bold; margin: 10px;
+	
+	/* add spacing and make the whole row clickable*/
+	display:block;
+}
+
+.newitem .caption p, .newitemSplit .caption p {
+	font-size: 4em; font-weight: bold; margin: 10px;
+	position: absolute;
+	bottom: 0;
+}
+
+.item {
+	width:310px;
+	height:200px;	
+	margin:0px 15px 15px 0;
+	color: #fff;
+	
+	/* required to hide the image after resized */
+	overflow:hidden;
+	
+	/* for child absolute position */
+	position:relative;
+	
+	/* display div in line */
+	float:left;
+}
+
+.item .caption {
+	width:310px;
+	height:200px;
+	background: url('img/bg2.png');
+	color:#fff;
+	font-weight:bold;
+	text-decoration:none;
+		
+	/* fix it at the bottom */
+	position:absolute;
+	left:0;
+
+	/* hide it by default */
+	display:none;
+}
+
+.item .caption span {
+	
+	color:#fff;
+	font-size: 1.4em; font-weight: bold; margin: 10px;
+	
+	/* add spacing and make the whole row clickable*/
+	display:block;
+}
+
+.item .caption p {
+	font-size: 3em; font-weight: bold; margin: 10px;
+	position: absolute;
+	bottom: 0;
+}
+
+img {
+	border:0;
+	
+	/* allow javascript moves the img position*/
+	position:absolute;
+}
+
+.clear {
+	clear:both;	
+}
+
+/* Single Episode Styling */
+
+.content {width: 960px; margin: 0 15px 15px 0; font-size: 1.4em; line-height: 1.6em;}
+.content h2 {font-size: 2em; color: #666;}
+.content h3 {font-size: 1.5em; color: #666;}
+.textleft {width: 465px; margin: 15px 15px 15px 0; float: left;}
+.textright ul {margin: 0; padding: 0 0 0 30px; font-size: 0.9em; }
+.textright {width: 465px; margin: 15px 0 15px 15px; float: right; }
+
+.images {width: 960px; float: left; }
+.left {width: 465px; float: left; margin: 0 15px 30px 0; position: relative;}
+.left h2 {margin: 0; padding: 0;}
+.right {width: 465px; float: right; margin: 0 0 30px 15px; position: relative;}
+.img_fix:after { clear: both; }
+/*.landscape {width: 960px; float: left; position: relative; margin: 0 0 30px 0;}*/
+.landscape { float: left; position: relative; margin: 0 0 30px 0;}
+.center { text-align: center; }
+
+.smallvideo {
+	text-align: center;
+	background-color: black;
+	
+}
